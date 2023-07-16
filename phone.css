@@ -1,0 +1,37 @@
+.left{
+    width: 30%;
+}
+img{
+    height: 113px;
+}
+p{
+    font-size: 10px;
+}
+@media ( max-width:511px){
+    img{
+        height: 85px;
+    }
+
+}
+@media(max-width:376px){
+    .left{
+        width: 30%;
+
+    }
+    .box{
+        padding: 20px 0px 20px 10px;
+    }
+    img{
+        height:70px ;
+    }
+}
+@media(max-width:280px){
+    .box{
+        padding: 20px 0px 5px 5px;
+        
+    }
+    p{
+        font-size: 8px;
+    }
+}
+    
